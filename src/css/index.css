@@ -1,0 +1,65 @@
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header{
+    width: 100%;
+}
+nav .menu{
+    gap: 10px;
+    display: flex;
+    text-decoration: none;
+
+}
+.Home{
+    text-decoration: none;
+    border: 1px;
+    
+}
+.Product{
+    text-decoration: none;
+}
+.About{
+    text-decoration: none;
+}
+.Contact{
+    text-decoration: none;
+}
+.Order{
+    text-decoration: none;
+}
+.menu a:hover{
+    border: 1px solid black;
+}
+main{
+
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+.containerhero img{
+    
+    width: 70%;
+}
+.row a{
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(179, 236, 92);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+}
+.row a:hover{
+    background-color: green;
+    
+}
