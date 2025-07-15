@@ -49,17 +49,154 @@ main{
 }
 .row a{
     width: fit-content;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border: none;
     outline: none;
-    background-color: rgb(179, 236, 92);
+    background-color: pink;
     border-radius: 5px;
     text-decoration: none;
-    color: white;
+    color: black;
     border: 1px solid black;
     transition: all 0.5s ease-in-out;
 }
 .row a:hover{
-    background-color: green;
+    background-color: palevioletred;
     
+}
+
+ .card-container1{
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease-in-out;}
+.card-container1:hover{
+    background-color: palevioletred;
+    width: 500px;
+    color: inherit;
+}       
+.card-container1 img{
+    width: 200px;
+} 
+        
+ .card-container2{
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: peachpuff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease-in-out;}
+ .card-container2:hover{
+    background-color: papayawhip;
+    width: 500px;
+    color: inherit;
+ }       
+ .card-container2 img{
+    width: 200px;
+ }
+ .card-container3{
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease-in-out;}
+        .card-container3:hover{
+    background-color: palevioletred;
+    width: 500px;
+    color: inherit;}
+    .card-container3 img{
+        width: 200px;
+    }
+    .card-container4{
+    width: 200px;
+    height: 300px;
+    border: 10px solid black;
+    background-color: peachpuff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease-in-out;}
+ .card-container4:hover{
+    background-color: papayawhip;
+    width: 500px;
+    color: inherit;}
+    .card-container4 img{
+        width: 200px;
+    }
+ .container2{
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    color: inherit;
+    flex-wrap: wrap;
+
+}
+.container1 h1{
+text-align: center;
+color: inherit;
+}
+.card-body{
+    padding: 10px;
+    text-align: center;
+    font-size: 8px;
+    color: inherit;
+
+}
+.konten{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+}
+.container10 h1{
+    text-align: center;
+}
+.konten2 img{
+    width: 400px;
+    border-radius: 5px;
+}
+.tulisan a:hover{
+    border: solid black;
+    background-color: plum;
+    transition: 0.5s ease-in-out;
+}
+.tulisan a{
+    background-color: palevioletred;
+    border-radius: 10px;   
+}
+.konten5{
+    text-align: center;
+}
+.konten6{
+    width: 200px;
+    border-radius: 40px;
+    align-items: center;
+    
+}
+.footer{
+   padding: 5px;
+    width: 100%;
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0   ;
+}
+h1{
+    font-family: poppins sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+body{
+    background-color:papayawhip;
+    background: #fa7373;
+background: radial-gradient(circle, rgba(250, 115, 115, 1) 0%, rgba(237, 225, 227, 1) 100%);
 }
